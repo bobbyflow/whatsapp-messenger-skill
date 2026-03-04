@@ -12,7 +12,7 @@ import ctypes
 
 user32 = ctypes.windll.user32
 
-# WhatsApp Microsoft Store App Protocol (Raw string to avoid octal warning)
+# WhatsApp Microsoft Store App Protocol
 WHATSAPP_LAUNCH_CMD = r"explorer.exe shell:AppsFolder\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App"
 
 def block_input(block=True):
