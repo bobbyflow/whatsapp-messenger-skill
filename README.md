@@ -49,4 +49,4 @@ Performs deep context extraction and intelligence synthesis to draft a reply.
 - **Phone Connection**: Your phone must be connected to ensure the desktop client is in an active state.
 
 ---
-Bobby Choi (Sovereign) | Opal (Architect)
+Bobby Choi (Orchestrator) | Opal (Architect)
