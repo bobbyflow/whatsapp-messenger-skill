@@ -25,7 +25,7 @@ Sends a message or image to a specific WhatsApp contact.
   - `send` (optional): Set to true to actually transmit (default: false / Halt mode).
 
 - **Command**:
-  `python C:\Users\choib\.gemini\skills\whatsapp-messenger\scripts\whatsapp_bridge.py "<contact>" [--message "<message>"] [--image "<image_path>"] [--send]`
+  `python "%USERPROFILE%\.gemini\skills\whatsapp-messenger\scripts\whatsapp_bridge.py" "<contact>" [--message "<message>"] [--image "<path>"] [--send]`
 
 ## Workflow
 1.  Identify the target contact and content.
