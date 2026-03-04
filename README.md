@@ -1,23 +1,23 @@
-﻿# WhatsApp Messenger
+# WhatsApp Messenger
 ### Hardware-Resilient Communication.
 
 ---
 
-**Reliability Redefined. Intelligence Integrated.**  
-The WhatsApp Messenger skill provides a professional-grade bridge to your local WhatsApp Desktop client. Engineered with **Absolute Zero Aggression**, it bypasses standard UI interference to deliver high-speed, accurate communication in mission-critical environments.
+**Designed for Sovereignty. Engineered for Survival.**  
+The WhatsApp Messenger skill is a high-speed, "Absolute Zero" bridge designed for professional-grade communication. It bypasses standard UI limitations through kernel-level hardware locking and high-speed clipboard injection, ensuring your intent is delivered with 100% reliability.
 
 ---
 
 ## Capabilities
 
-### âš¡ï¸ Atomic Injection
-Engineered for industrial RPA. The bridge utilizes kernel-level hardware locking and high-speed clipboard buffers to ensure that data delivery is never interrupted by background processes or user input.
+### ⚡️ Atomic Injection
+Built for industrial-grade RPA. The bridge utilizes **Absolute Zero Aggression**—automatically seizing focus, locking physical hardware input, and neutralizing interference from background applications during the delivery cycle.
 
-### ðŸ›¡ï¸ Self-Healing Architecture
-The system is designed to survive. It automatically detects if the application is hidden in the system tray or closed, performing a surgical wake-up and re-focus before every delivery.
+### 🛡️ Self-Healing Architecture
+Resilience by design. The system automatically detects if WhatsApp is hidden in the system tray or closed, executing a surgical wake-up and UI re-sync before every transmission.
 
-### ðŸ›¡ï¸ Identity Lock
-Security is built into the protocol. The bridge verifies active chat headers before executing any paste operation, ensuring your data never lands in the wrong thread.
+### 🛡️ Identity Lock
+Security is a core protocol. The bridge verifies active chat headers and dynamically re-binds to standalone windows to ensure your data never lands in an unauthorized thread.
 
 ---
 
@@ -25,13 +25,19 @@ Security is built into the protocol. The bridge verifies active chat headers bef
 
 ### `send_to_whatsapp`
 **The Tactical Hand.**  
-Directly injects text or images into a target contact. Support for both standard chat and standalone window detection.
+Directly injects text or images into a target contact. Optimized for speed and "Zero-Lag" execution.
+
+---
+
+## Roadmap
+*   **Universal Reader v3.0:** Integration of the multi-modal temporal scraper (Current Status: Pilot phase on WeChat).
+*   **Chart-Eye Support:** Visual analysis of WhatsApp image assets.
 
 ---
 
 ## Requirements
-*   **OS:** Windows 10/11 (UWP/Store App Support)
-*   **App:** WhatsApp Desktop (Connected to Phone)
+*   **OS:** Windows 10/11
+*   **App:** WhatsApp Desktop (Connected to Mobile)
 *   **Environment:** Python 3.x with `pip install -r requirements.txt`
 *   **Access:** Admin privileges recommended for `BlockInput` dominance.
 
