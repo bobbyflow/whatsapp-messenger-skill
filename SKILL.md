@@ -12,6 +12,7 @@ This skill allows AI agents to send text output and images directly to your loca
 - **🛠️ Self-Healing**: Automatically launches WhatsApp if it's closed or hidden in the system tray.
 - **🛡️ Absolute Zero Aggression**: Forces WhatsApp to front and locks hardware input (Requires Admin).
 - **🔄 Follow-the-Focus**: Automatically detects and re-binds if a chat is in a standalone window.
+- **🧠 Universal Intelligence**: Dynamic 4-way research synthesis for professional replies (v3.0).
 
 ## Tools
 
@@ -26,6 +27,16 @@ Sends a message or image to a specific WhatsApp contact.
 
 - **Command**:
   `python "%USERPROFILE%\.gemini\skills\whatsapp-messenger\scripts\whatsapp_bridge.py" "<contact>" [--message "<message>"] [--image "<path>"] [--send]`
+
+### help_me_reply
+Performs deep context extraction and intelligence synthesis to draft a reply.
+- **Arguments**:
+  - `chat_name`: The name of the group or contact.
+  - `intensity`: `quick` (1 search), `standard` (2 searches), `deep` (4 searches + research skill).
+- **Workflow**: 
+  1. Scrapes last 30 messages using UWP UI traversal.
+  2. Fuses parallel research with internal reasoning.
+  3. Pastes draft into chat (Halt Mode).
 
 ## Workflow
 1.  Identify the target contact and content.
