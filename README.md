@@ -1,4 +1,4 @@
-# WhatsApp Messenger
+﻿# WhatsApp Messenger
 ### Hardware-Resilient Communication.
 
 ---
@@ -10,13 +10,13 @@ The WhatsApp Messenger skill provides a professional-grade bridge to your local 
 
 ## Capabilities
 
-### ⚡️ Atomic Injection
+### âš¡ï¸ Atomic Injection
 Engineered for industrial RPA. The bridge utilizes kernel-level hardware locking and high-speed clipboard buffers to ensure that data delivery is never interrupted by background processes or user input.
 
-### 🛡️ Self-Healing Architecture
+### ðŸ›¡ï¸ Self-Healing Architecture
 The system is designed to survive. It automatically detects if the application is hidden in the system tray or closed, performing a surgical wake-up and re-focus before every delivery.
 
-### 🛡️ Identity Lock
+### ðŸ›¡ï¸ Identity Lock
 Security is built into the protocol. The bridge verifies active chat headers before executing any paste operation, ensuring your data never lands in the wrong thread.
 
 ---
@@ -37,4 +37,4 @@ Directly injects text or images into a target contact. Support for both standard
 
 ---
 
-Bobby Choi, Sovereign | Opal, Architect
+Bobby Choi (Sovereign) | Opal (Architect)
