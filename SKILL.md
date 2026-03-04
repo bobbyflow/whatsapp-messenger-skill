@@ -30,7 +30,8 @@ Sends a message or image to a specific WhatsApp contact.
 ## Workflow
 1.  Identify the target contact and content.
 2.  Use the `send_to_whatsapp` command to deliver.
-3.  By default, the script stays in **Halt Mode** (pastes but doesn't send). Include `--send` for full automation.
+3.  **Default (HALT Mode):** The script MUST stay in Halt Mode (pastes but doesn't send).
+4.  **Bypass Rule:** The AI Agent is STRICTLY FORBIDDEN from using the `--send` flag unless the user explicitly includes the phrase **"BYPASS HALT"** in their request.
 
 ## Constraints
 - **WhatsApp Desktop Required**: The Windows Desktop application must be installed.
