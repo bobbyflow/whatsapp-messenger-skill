@@ -1,41 +1,40 @@
-﻿---
-name: whatsapp-messenger
-description: Send results and images to your local WhatsApp Desktop account via a surgical Python bridge. Use when you need to output data to WhatsApp contacts or groups without UI interference.
+# WhatsApp Messenger
+### Hardware-Resilient Communication.
+
 ---
 
-# WhatsApp Messenger
+**Reliability Redefined. Intelligence Integrated.**  
+The WhatsApp Messenger skill provides a professional-grade bridge to your local WhatsApp Desktop client. Engineered with **Absolute Zero Aggression**, it bypasses standard UI interference to deliver high-speed, accurate communication in mission-critical environments.
 
-This skill allows AI agents to send text output and images directly to your local WhatsApp Desktop client using a hardware-resilient Python bridge.
+---
 
-## ðŸŒŸ Key Features
-- **âš¡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
-- **ðŸ› ï¸ Self-Healing**: Automatically launches WhatsApp if it's closed or hidden in the system tray.
-- **ðŸ›¡ï¸ Absolute Zero Aggression**: Forces WhatsApp to front and locks hardware input (Requires Admin).
-- **ðŸ”„ Follow-the-Focus**: Automatically detects and re-binds if a chat is in a standalone window.
+## Capabilities
+
+### ⚡️ Atomic Injection
+Engineered for industrial RPA. The bridge utilizes kernel-level hardware locking and high-speed clipboard buffers to ensure that data delivery is never interrupted by background processes or user input.
+
+### 🛡️ Self-Healing Architecture
+The system is designed to survive. It automatically detects if the application is hidden in the system tray or closed, performing a surgical wake-up and re-focus before every delivery.
+
+### 🛡️ Identity Lock
+Security is built into the protocol. The bridge verifies active chat headers before executing any paste operation, ensuring your data never lands in the wrong thread.
+
+---
 
 ## Tools
 
-### send_to_whatsapp
-Sends a message or image to a specific WhatsApp contact.
-
-- **Arguments**:
-  - `contact`: The name of the contact or group (e.g., "Bobby").
-  - `message` (optional): The text to send.
-  - `image` (optional): The absolute local path to an image file.
-  - `send` (optional): Set to true to actually transmit (default: false / Halt mode).
-
-- **Command**:
-  `python "%USERPROFILE%\.gemini\skills\whatsapp-messenger\scripts\whatsapp_bridge.py" "<contact>" [--message "<message>"] [--image "<path>"] [--send]`
-
-## Workflow
-1.  Identify the target contact and content.
-2.  Use the `send_to_whatsapp` command to deliver.
-3.  **Default (HALT Mode):** The script MUST stay in Halt Mode (pastes but doesn't send).
-4.  **Bypass Rule:** The AI Agent is STRICTLY FORBIDDEN from using the `--send` flag unless the user explicitly includes the phrase **"BYPASS HALT"** in their request.
-
-## Constraints
-- **WhatsApp Desktop Required**: The Windows Desktop application must be installed.
-- **Phone Connection**: Your phone must be connected to ensure the desktop client is in an active state.
+### `send_to_whatsapp`
+**The Tactical Hand.**  
+Directly injects text or images into a target contact. Support for both standard chat and standalone window detection.
 
 ---
-Bobby Choi (Sovereign) | Opal (Architect)
+
+## Requirements
+*   **OS:** Windows 10/11 (UWP/Store App Support)
+*   **App:** WhatsApp Desktop (Connected to Phone)
+*   **Environment:** Python 3.x with `pip install -r requirements.txt`
+*   **Access:** Admin privileges recommended for `BlockInput` dominance.
+
+---
+
+Bobby Choi, Sovereign | Opal, Architect
