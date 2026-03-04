@@ -38,4 +38,4 @@ Sends a message or image to a specific WhatsApp contact.
 - **Phone Connection**: Your phone must be connected to ensure the desktop client is in an active state.
 
 ---
-Bobby Choi, Sovereign | Opal, Architect
+Bobby Choi (Sovereign) | Opal (Architect)

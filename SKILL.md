@@ -1,4 +1,4 @@
----
+﻿---
 name: whatsapp-messenger
 description: Send results and images to your local WhatsApp Desktop account via a surgical Python bridge. Use when you need to output data to WhatsApp contacts or groups without UI interference.
 ---
@@ -7,11 +7,11 @@ description: Send results and images to your local WhatsApp Desktop account via 
 
 This skill allows AI agents to send text output and images directly to your local WhatsApp Desktop client using a hardware-resilient Python bridge.
 
-## 🌟 Key Features
-- **⚡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
-- **🛠️ Self-Healing**: Automatically launches WhatsApp if it's closed or hidden in the system tray.
-- **🛡️ Absolute Zero Aggression**: Forces WhatsApp to front and locks hardware input (Requires Admin).
-- **🔄 Follow-the-Focus**: Automatically detects and re-binds if a chat is in a standalone window.
+## ðŸŒŸ Key Features
+- **âš¡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
+- **ðŸ› ï¸ Self-Healing**: Automatically launches WhatsApp if it's closed or hidden in the system tray.
+- **ðŸ›¡ï¸ Absolute Zero Aggression**: Forces WhatsApp to front and locks hardware input (Requires Admin).
+- **ðŸ”„ Follow-the-Focus**: Automatically detects and re-binds if a chat is in a standalone window.
 
 ## Tools
 
@@ -38,4 +38,4 @@ Sends a message or image to a specific WhatsApp contact.
 - **Phone Connection**: Your phone must be connected to ensure the desktop client is in an active state.
 
 ---
-Bobby Choi, Sovereign | Opal, Architect
+Bobby Choi (Sovereign) | Opal (Architect)
