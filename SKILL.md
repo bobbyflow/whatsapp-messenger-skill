@@ -10,7 +10,7 @@ This skill allows AI agents to send text output and images directly to your loca
 ## 🌟 Key Features
 - **⚡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
 - **🛠️ Self-Healing**: Automatically launches WhatsApp if it's closed or hidden in the system tray.
-- **🛡️ Identity Lock**: Verifies the active chat header before pasting to ensure delivery to the correct contact.
+- **🛡️ Absolute Zero Aggression**: Forces WhatsApp to front and locks hardware input (Requires Admin).
 - **🔄 Follow-the-Focus**: Automatically detects and re-binds if a chat is in a standalone window.
 
 ## Tools
@@ -38,4 +38,4 @@ Sends a message or image to a specific WhatsApp contact.
 - **Phone Connection**: Your phone must be connected to ensure the desktop client is in an active state.
 
 ---
-Engineered by Opal | Systems Architect
+Bobby Choi Sovereign | Opal Architect
